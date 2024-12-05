@@ -4,8 +4,8 @@ import os
 from collections import defaultdict
 
 # File paths for input log file and output CSV
-LOG_FILE_PATH = '../data/logv.log'
-OUTPUT_FILE_PATH = '../log_analysis_results.csv'
+LOG_FILE_PATH = '../data/logfile.log'
+OUTPUT_FILE_PATH = '../data/log_analysis_results.csv'
 
 # Analyze request counts grouped by IP address
 def analyze_requests_by_ip(log_lines):
